@@ -1,12 +1,24 @@
+// import requirer package
 const inquirer = require("inquirer");
+// requiring file system package
 const fs = require("fs");
+// import function that generate the readme from the following pad
+const readmeGenertor = require("./Pages/readme-generator")
 
+// propmting question to user for generating README file
 inquirer.prompt([
   {
     type: "input",
     message: "What is your GitHub username?",
     name: "userName",
   },
+
+  {
+    type: "input",
+    message: "What is your email address?",
+    name: "email",
+  },
+
   {
     type: "input",
     message: "What is your project name?",
@@ -35,4 +47,24 @@ inquirer.prompt([
     message: "What installation required?",
     name: "installation",
   },
-]);
+  {
+    type: "input",
+    message: "How can others contribute to your project?",
+    name: "contribution",
+  },
+
+  {
+    type: "input",
+    message: "What tests are available for the project?",
+    name: "test",
+  }
+])
+.then((data) =>{
+  // assigning the result from the function that generate READme to a varaible to be use to write the README
+const readmeContent = readmeGenertor(data);
+
+// Writing to a file
+
+      fs.writeFile('README.md',`${readmeContent}\t`, (error) =>
+        error ? console.log(error) : console.log('Success'));
+});

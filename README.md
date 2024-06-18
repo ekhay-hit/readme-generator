@@ -1,34 +1,34 @@
  # readme-generator
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT);
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
      
 ## Description
-    This project allow you to generate readme file dynamically
+    This project will allow you to create a README file dynamically after answering all the question that being prompted
 
 ## Tabel of Contents
 
-* Description
-* Installation
-* Usage
-* License
-* contribution
-* Test
-* Questions
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributions](#Contributions)
+* [Test](#Test)
+* [Questions](#Questions)
     
-## Installation
-    to use this project please run npm init to insatll required packages
+## Installation 
+    run npm i init
 
  ## Usage
-    This project will prompt you to answer multiple questions that will be used to generate readme
+    This project will prompt you through multiple questions that will be used to generate readme base on the answers given
 
 ## License
     MIT
 
 ## Contributions
-please follow the instrucation that are provided in github repo
+Please read the guideline provided in the github repo for the project
 
 ## Testing
-to run test please run npm run test
+run npm run test
 
 
 ### Questions:

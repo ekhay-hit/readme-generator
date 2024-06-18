@@ -10,15 +10,15 @@ ${`[![License](https://img.shields.io/badge/License-${data.license}-blue.svg)](h
 
 ## Tabel of Contents
 
-* Description
-* Installation
-* Usage
-* License
-* contribution
-* Test
-* Questions
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributions](#Contributions)
+* [Test](#Test)
+* [Questions](#Questions)
     
-## Installation
+## Installation 
     ${data.installation}
 
  ## Usage

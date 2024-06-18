@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 // requiring file system package
 const fs = require("fs");
 // import function that generate the readme from the following pad
-const readmeGenertor = require("./Pages/readme-generator")
+const readmeGenertor = require("./js/readme-generator")
 
 // propmting question to user for generating README file
 inquirer.prompt([

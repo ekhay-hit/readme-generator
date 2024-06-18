@@ -36,4 +36,7 @@ run npm run test
 * For any question please use the following email address ekhay1@outlook.com
 * Githab repository: ekhay-hit
 
+## Links
+* link to the vedio recording https://watch.screencastify.com/v/zSSpTd3pRpPKCgWPMySe
+
     	
